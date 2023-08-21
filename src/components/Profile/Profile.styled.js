@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProfileWraper = styled.div`
+export const ProfileWrapper = styled.div`
   margin-top: 20px;
   display: flex;
   justify-content: center;

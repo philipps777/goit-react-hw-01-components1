@@ -1,7 +1,7 @@
-import{ProfileWraper, ProfileCard, UserAvatar, ProfileHeader, ProfileInfo, StatsList, StatsItem} from "./Profile.styled"
+import{ProfileWrapper, ProfileCard, UserAvatar, ProfileHeader, ProfileInfo, StatsList, StatsItem} from "./Profile.styled"
 
 export const Profile = ({username, tag, location, avatar, stats}) => {
-    return <ProfileWraper className="profile">{
+    return <ProfileWrapper className="profile">{
         <ProfileCard className="description">
          <UserAvatar
       src={avatar}
@@ -27,6 +27,6 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
     </StatsItem>
   </StatsList>
         </ProfileCard>}
-        </ProfileWraper>
+        </ProfileWrapper>
         
 }
